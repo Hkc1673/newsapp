@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-input-group-wrapper  {
+  background-color: #fff;
+}
+
+.site-input-group-wrapper  {
+  border-left-width: 0;
+}
+
+.site-input-group-wrapper:hover,
+.site-input-group-wrapper:focus {
+  border-left-width: 1px;
+}
+
+.site-input-group-wrapper {
+  border-right-width: 0;
+}
+
+.site-input-group-wrapper:hover,
+.site-input-group-wrapper:focus {
+  border-right-width: 1px;
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+.ant-card-meta-title {
+  word-wrap:break-word;
+}
+
